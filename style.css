@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(#ebbe4d 40%, #15132c 50%);
+}
+
+p{
+	line-height:100px;
+}
+
+.container{
+	position:fixed;
+	display: flex;
+	align-items:center;
+	transform: translate(25vw,50vh);
+}
+
+	.text{
+		display:none;
+		height:700px;
+	}
+	.clock{
+		position: absolute;
+		z-index: 10;
+	}
+	.hand{
+		position: absolute;
+		z-index: 20;
+	}
+
+	#rotate{
+		transform-origin: right center;
+	}
+
+	.pic1{
+	position:absolute;
+	z-index:15;
+	}
+
+	.pic2{
+		position:absolute;
+		z-index:16;
+		display:none;
+	}
+
+.container2{
+	font-family: 'Coming Soon', cursive;
+	height:8400px;
+	width:75vw;
+	font-size:60px;
+	margin:auto;
+}
+
+	.morning{
+	  color:white;
+	}
+
+	.night{
+		color:#8e8e96;
+	}
+
+	.right{
+		text-align:right;
+	}
